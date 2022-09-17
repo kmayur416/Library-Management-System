@@ -13,7 +13,6 @@ class LibraryUser(models.Model):
         return self.username
 
 
-
 class Book(models.Model):
     book_id = models.IntegerField(primary_key=True,unique=True,null=False)
     book_name = models.CharField(max_length=50)
